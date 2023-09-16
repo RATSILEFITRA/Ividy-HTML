@@ -1,0 +1,509 @@
+.vos-achats-connexion-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.vos-achats-connexion-header {
+  width: 100%;
+  display: flex;
+  position: relative;
+  max-width: 100%;
+  align-items: center;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-unit);
+  justify-content: space-between;
+  background-color: var(--dl-color-danger-700);
+}
+.vos-achats-connexion-container01 {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.vos-achats-connexion-navlink {
+  display: contents;
+}
+.vos-achats-connexion-image {
+  width: 90px;
+  object-fit: cover;
+  border-radius: var(--dl-radius-radius-round);
+  text-decoration: none;
+}
+.vos-achats-connexion-container02 {
+  width: auto;
+  display: flex;
+  align-items: center;
+  padding-top: 0px;
+  padding-left: var(--dl-space-space-halfunit);
+  padding-right: var(--dl-space-space-halfunit);
+  padding-bottom: 0px;
+  justify-content: space-between;
+}
+.vos-achats-connexion-container03 {
+  cursor: pointer;
+  display: flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: 0px;
+  padding-left: var(--dl-space-space-oneandhalfunits);
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  padding-bottom: 0px;
+  justify-content: space-between;
+}
+
+.vos-achats-connexion-navlink1 {
+  color: var(--dl-color-gray-white);
+  cursor: pointer;
+  transition: 0.6s;
+  font-weight: 600;
+  padding-left: 24px;
+  padding-right: 24px;
+  text-decoration: none;
+}
+.vos-achats-connexion-navlink1:hover {
+  color: var(--dl-color-gray-black);
+}
+.vos-achats-connexion-navlink2 {
+  color: var(--dl-color-gray-white);
+  cursor: pointer;
+  transition: 0.6s;
+  font-weight: 600;
+  padding-left: 24px;
+  padding-right: 24px;
+  text-decoration: none;
+}
+.vos-achats-connexion-navlink2:hover {
+  color: var(--dl-color-gray-black);
+}
+.vos-achats-connexion-container04 {
+  width: auto;
+  display: flex;
+  padding: 0px;
+  align-items: center;
+  justify-content: space-between;
+}
+.vos-achats-connexion-icon {
+  fill: var(--dl-color-gray-white);
+  width: 30px;
+  cursor: pointer;
+  height: 30px;
+  transition: 0.6s;
+}
+.vos-achats-connexion-icon:hover {
+  fill: var(--dl-color-gray-black);
+}
+.vos-achats-connexion-banner {
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: 0px;
+  padding-right: 0px;
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-halfunit);
+  justify-content: space-between;
+  background-color: var(--dl-color-gray-white);
+}
+.vos-achats-connexion-container05 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  max-width: 100%;
+  align-self: flex-end;
+  align-items: flex-start;
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-unit);
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.vos-achats-connexion-textinput {
+  font-size: 0.75rem;
+  border-color: var(--dl-color-gray-500);
+  background-color: rgba(255, 255, 255, 0);
+}
+.vos-achats-connexion-button {
+  color: var(--dl-color-gray-white);
+  cursor: pointer;
+  font-size: 0.75rem;
+  transition: 0.6s;
+  margin-left: var(--dl-space-space-unit);
+  border-width: 0px;
+  background-color: var(--dl-color-danger-700);
+}
+.vos-achats-connexion-button:hover {
+  color: var(--dl-color-danger-700);
+  font-style: normal;
+  font-weight: 600;
+  background-color: var(--dl-color-gray-black);
+}
+.vos-achats-connexion-container06 {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-halfunit);
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.vos-achats-connexion-blog {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-threeunits);
+  max-width: var(--dl-size-size-maxwidth);
+  align-self: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.vos-achats-connexion-container07 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-twounits);
+  flex-direction: column;
+  justify-content: space-between;
+}
+.vos-achats-connexion-blog-post-card {
+  width: 100%;
+  display: flex;
+  position: relative;
+  max-width: 100%;
+  box-shadow: 4px 4px 10px 0px rgba(18, 18, 18, 0.76);
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-oneandhalfunits);
+  border-radius: 10px;
+  margin-bottom: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-halfunit);
+  justify-content: space-between;
+}
+.vos-achats-connexion-blog-post-card:hover {
+  transform: scale(1.02);
+}
+.vos-achats-connexion-container08 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.vos-achats-connexion-container09 {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.vos-achats-connexion-image1 {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  flex-shrink: 0;
+  border-radius: 10px;
+}
+.vos-achats-connexion-container10 {
+  width: auto;
+  display: flex;
+  text-align: left;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-twounits);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: flex-start;
+}
+.vos-achats-connexion-container11 {
+  display: flex;
+  align-self: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.vos-achats-connexion-text04 {
+  align-self: center;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.vos-achats-connexion-text05 {
+  font-size: 20px;
+  align-self: center;
+  text-align: center;
+}
+.vos-achats-connexion-container12 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  padding: var(--dl-space-space-halfunit);
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+}
+.vos-achats-connexion-text06 {
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  margin-right: var(--dl-space-space-sixunits);
+}
+.vos-achats-connexion-container13 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  padding: 10px;
+  align-self: center;
+  transition: 0.5s;
+  align-items: center;
+  border-radius: var(--dl-radius-radius-round);
+  justify-content: center;
+  background-color: var(--dl-color-danger-700);
+}
+.vos-achats-connexion-container13:hover {
+  transform: scale(1.02);
+  background-color: var(--dl-color-gray-black);
+}
+.vos-achats-connexion-icon02 {
+  fill: var(--dl-color-gray-white);
+  width: 48px;
+  cursor: pointer;
+  height: 48px;
+  align-self: center;
+}
+.vos-achats-connexion-grp-btn {
+  flex: 0 0 auto;
+  width: auto;
+  height: 100px;
+  display: flex;
+  max-width: 1350px;
+  align-self: center;
+  align-items: center;
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  justify-content: flex-end;
+}
+.vos-achats-connexion-button1 {
+  color: var(--dl-color-gray-white);
+  cursor: pointer;
+  display: flex;
+  font-size: 20px;
+  font-style: normal;
+  transition: 0.3s;
+  align-items: center;
+  font-weight: 700;
+  padding-top: 15px;
+  border-width: 0px;
+  padding-left: 50px;
+  border-radius: 30px;
+  padding-right: 50px;
+  flex-direction: row;
+  padding-bottom: 15px;
+  justify-content: space-between;
+  background-color: var(--dl-color-danger-500);
+}
+.vos-achats-connexion-button1:hover {
+  color: var(--dl-color-gray-white);
+  transform: scale(1.03);
+  background-color: var(--dl-color-danger-300);
+}
+.vos-achats-connexion-icon05 {
+  fill: var(--dl-color-gray-white);
+  width: 22px;
+  height: 22px;
+  margin-top: 0px;
+  margin-left: var(--dl-space-space-halfunit);
+  margin-right: var(--dl-space-space-halfunit);
+  margin-bottom: 0px;
+}
+.vos-achats-connexion-button2 {
+  color: var(--dl-color-gray-white);
+  cursor: pointer;
+  display: flex;
+  font-size: 20px;
+  box-shadow: 1px 2px 10px 0px #000000;
+  font-style: normal;
+  transition: 0.3s;
+  font-weight: 700;
+  margin-left: var(--dl-space-space-sixunits);
+  padding-top: 15px;
+  border-width: 0px;
+  padding-left: 50px;
+  border-radius: 30px;
+  padding-right: 50px;
+  flex-direction: row;
+  padding-bottom: 15px;
+  background-color: var(--dl-color-primary-100);
+}
+.vos-achats-connexion-button2:hover {
+  transform: scale(1.03);
+  background-color: #002875;
+}
+.vos-achats-connexion-icon07 {
+  fill: var(--dl-color-gray-white);
+  width: 24px;
+  height: 24px;
+  margin-top: 0px;
+  margin-left: var(--dl-space-space-halfunit);
+  margin-right: var(--dl-space-space-halfunit);
+  margin-bottom: 0px;
+}
+.vos-achats-connexion-footer {
+  left: 0px;
+  width: 100%;
+  bottom: 0px;
+  display: flex;
+  position: absolute;
+  max-width: 100%;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+  background-color: #D9D9D9;
+}
+.vos-achats-connexion-container14 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.vos-achats-connexion-icon-group {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.vos-achats-connexion-icon09 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.vos-achats-connexion-icon11 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.vos-achats-connexion-icon13 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+@media(max-width: 991px) {
+  .vos-achats-connexion-blog-post-card {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+@media(max-width: 767px) {
+  .vos-achats-connexion-container {
+    justify-content: space-between;
+  }
+  .vos-achats-connexion-header {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .vos-achats-connexion-banner {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .vos-achats-connexion-blog {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .vos-achats-connexion-blog-post-card {
+    width: auto;
+    flex-direction: column;
+  }
+  .vos-achats-connexion-container08 {
+    flex-direction: column;
+  }
+  .vos-achats-connexion-container09 {
+    flex-direction: column;
+  }
+  .vos-achats-connexion-image1 {
+    width: 330px;
+    height: 330px;
+  }
+  .vos-achats-connexion-container10 {
+    flex-direction: column;
+  }
+  .vos-achats-connexion-footer {
+    position: static;
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .vos-achats-connexion-container14 {
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .vos-achats-connexion-text09 {
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+}
+@media(max-width: 479px) {
+  .vos-achats-connexion-container {
+    justify-content: space-between;
+  }
+  .vos-achats-connexion-header {
+    padding: var(--dl-space-space-unit);
+  }
+  .vos-achats-connexion-banner {
+    padding-top: var(--dl-space-space-threeunits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-threeunits);
+  }
+  .vos-achats-connexion-container05 {
+    align-items: center;
+    flex-direction: column;
+  }
+  .vos-achats-connexion-button {
+    margin-top: var(--dl-space-space-unit);
+    margin-left: 0px;
+  }
+  .vos-achats-connexion-blog {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .vos-achats-connexion-grp-btn {
+    height: auto;
+    flex-direction: column;
+  }
+  .vos-achats-connexion-button1 {
+    margin-top: var(--dl-space-space-halfunit);
+    margin-bottom: var(--dl-space-space-halfunit);
+  }
+  .vos-achats-connexion-button2 {
+    margin-top: var(--dl-space-space-unit);
+    margin-left: 0px;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .vos-achats-connexion-footer {
+    padding: var(--dl-space-space-unit);
+    position: static;
+  }
+  .vos-achats-connexion-container14 {
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .vos-achats-connexion-text09 {
+    text-align: center;
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+}
